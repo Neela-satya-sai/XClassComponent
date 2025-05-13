@@ -15,7 +15,7 @@ export default class Counter extends Component{
   render(){
     return<>
       <h1>Counter App</h1>
-      <h3>count: {this.state.count}</h3>
+      <h3>Count: {this.state.count}</h3>
       <button onClick={this.handleClick} name ={1}>Increment</button>
       <button onClick={this.handleClick} name ={-1}>Decrement</button>
       </>
